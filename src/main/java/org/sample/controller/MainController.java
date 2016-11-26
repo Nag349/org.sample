@@ -10,7 +10,7 @@ public class MainController {
 public ModelAndView moves(){
 	ModelAndView modelAndView = new ModelAndView();
 	modelAndView.setViewName("ab");
-	modelAndView.addObject("mess", "anything typed");
+	modelAndView.addObject("mess", "anything write");
 	return modelAndView;
 }
 }
